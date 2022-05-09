@@ -5,3 +5,4 @@ jobs:
     runs-on: self-hosted
     steps:
       - run: echo "Hello cloud gurus"
+      - run: echo $HOSTNAME
