@@ -1,0 +1,8 @@
+name: GitHub Actions Demo
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: self-hosted
+    steps:
+      - run: echo "Hello cloud gurus"
+      - run: echo $HOSTNAME
